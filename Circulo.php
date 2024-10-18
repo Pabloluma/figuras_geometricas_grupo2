@@ -1,4 +1,6 @@
 <?
+include_once 'FiguraGeometrica.php';
+
 class Circulo extends FiguraGeometrica{
     private $centro;
     private $radio;
