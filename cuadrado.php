@@ -12,6 +12,10 @@ class cuadrado extends FiguraGeometrica(){
         $this-> $esquina = $esquina;
     }
 
+    public function getLado(){
+        return $this -> lado;
+    }
+
     public function  area(){
         return $this ->lado * $this ->lado;
     }
