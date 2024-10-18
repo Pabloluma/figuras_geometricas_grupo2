@@ -2,12 +2,12 @@
 include_once 'FiguraGeometrica.php'
 
 
-class cuadrado extends FiguraGeometrica(){
+class Cuadrado extends FiguraGeometrica(){
 
-    private $lado;
-    private $esquina;
+    private float $lado;
+    private Punto $esquina;
 
-    public function __construct($lado, $esquina){
+    public function __construct($lado, Punto $esquina){
         $this-> $lado = $lado;
         $this-> $esquina = $esquina;
     }
