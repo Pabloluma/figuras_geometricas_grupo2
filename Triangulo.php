@@ -3,8 +3,8 @@ include_once 'FiguraGeometrica.php';
 class ProductoFisico extends FiguaraGeometrica{
     private float $base;
     private float $altura;
-    private float$lado1;
-    private float$lado2;
+    private float $lado1;
+    private float $lado2;
     private float $lado3; 
     private Punto $vertice;
 
