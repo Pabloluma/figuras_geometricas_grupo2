@@ -1,6 +1,6 @@
 <?php
 include_once 'FiguraGeometrica.php';
-class ProductoFisico extends FiguarGeometrica{
+class ProductoFisico extends FiguraGeometrica{
     private float $base;
     private float $altura;
     private float $lado1;
