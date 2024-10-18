@@ -1,5 +1,5 @@
 <?
-class Circulo{
+class Circulo extends FiguraGeometrica{
     private $centro;
     private $radio;
 
