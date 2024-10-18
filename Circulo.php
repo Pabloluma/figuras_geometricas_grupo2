@@ -8,6 +8,9 @@ class Circulo{
         $this->radio=$radio;
 
     }
+    public function getRadio(){
+        return $this->radio;
+    }
 
     public function area(){
         return M_PI * pow($this->radio, 2);
