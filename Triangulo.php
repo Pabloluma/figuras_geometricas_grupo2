@@ -16,7 +16,7 @@ class ProductoFisico extends FiguraGeometrica{
     $this->lado1 = $lado1;
     $this->lado2 = $lado2;
     $this->lado3 = $lado3;
-}
+    }
 
     public function getBase(){
         return $this->base;
