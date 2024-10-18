@@ -1,5 +1,5 @@
 <?php
-abstract class FiguaraGeometrica{
+abstract class FiguraGeometrica{
     protected $nombre;
 
     public function __construct($nombre) {
