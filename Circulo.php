@@ -23,13 +23,4 @@ class Circulo extends FiguraGeometrica{
     }
 
 }
-
-
-
-
-
-
-
-
-
 ?>
