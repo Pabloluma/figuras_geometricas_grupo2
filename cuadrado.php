@@ -24,7 +24,7 @@ class Cuadrado extends FiguraGeometrica(){
         return $this -> lado*4;
     }
 
-
+//holaaaa
 }
 
 ?>
