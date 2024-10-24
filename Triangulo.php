@@ -26,7 +26,7 @@ class Triangulo extends FiguraGeometrica{
     }
 
     public function area(){
-        return $this->base*($this->altura*2);
+        return $this->base*($this->altura/2);
     }
     public function perimetro(){
         return $this->lado1 + $this->lado2 + $this->lado3;
