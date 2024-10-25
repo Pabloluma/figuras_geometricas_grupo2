@@ -3,13 +3,16 @@
 include_once 'FiguraGeometrica.php';
 
 class Circulo extends FiguraGeometrica{
-    private Punto $centro;
-    private float $radio;
+    private $nombre;
+    private $radio;
 
-    public function __construct(Punto $centro, float $radio){
-        $this->centro=$centro;
+    public function __construct($nombre, $radio){
+        $this->nombre=$nombre;
         $this->radio=$radio;
         
+    }
+    public function getNombre(){
+        return $this->nombre;
     }
     public function getRadio(){
         return $this->radio;
