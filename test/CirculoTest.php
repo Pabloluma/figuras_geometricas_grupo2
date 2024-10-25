@@ -1,7 +1,7 @@
 <?php
 // Incluye los archivos necesarios desde la carpeta src
-require_once __DIR__ . '../FiguraGeometrica.php';
-require_once __DIR__ . '../Circulo.php';
+require_once __DIR__ . '../src/FiguraGeometrica.php';
+require_once __DIR__ . '../src/Circulo.php';
 
 // Función para ejecutar una aserción manual de igualdad
 function assertEquals($esperado, $actual, $testName) {
