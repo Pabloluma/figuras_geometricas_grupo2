@@ -1,7 +1,7 @@
 <?php
 class punto{
-    private float x;
-    private float y;
+    private float $x;
+    private float $y;
 
     //Constructor
     public function __construct($x, $y){
