@@ -30,4 +30,5 @@ $esperadoNombre = "Círculo de prueba";
 $actualNombre = $circulo->getNombre();
 assertEquals($esperadoNombre, $actualNombre, "Prueba de obtención del nombre");
 //
+
 ?>
