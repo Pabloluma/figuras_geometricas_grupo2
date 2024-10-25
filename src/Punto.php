@@ -1,5 +1,5 @@
 <?php
-class punto{
+class Punto{
     private float $x;
     private float $y;
 
