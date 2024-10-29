@@ -5,8 +5,8 @@ class Punto{
 
     //Constructor
     public function __construct($x, $y){
-        $this -> $x=$x;
-        $this -> $y=$y;
+        $this -> x=$x;
+        $this -> y=$y;
     }
 
     //Getter
@@ -20,7 +20,7 @@ class Punto{
 
     //Funcion que calcula la distacia que existe entre el punto de origen (0,0) y nuestro punto (x,y)
     public function distancia(){
-        return sqrt(pow($this->x, 2) + pow($this->y, 2));
+        return sqrt(pow($this->$x, 2) + pow($this->$y, 2));
     }
 }
 ?>

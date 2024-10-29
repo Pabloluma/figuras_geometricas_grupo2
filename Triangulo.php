@@ -49,4 +49,18 @@ class Triangulo extends FiguraGeometrica{
     public function perimetro(){
         return $this->lado1 + $this->lado2 + $this->lado3;
     }
+
+    // // Los parametros son:
+    // // -->Image => Es la imagen que se ha creado arriba de 500 x 300
+    // // -->triangle_points => Es la ubicacion de cada punto 
+    // // --> 3 => El número de puntos que tiene la figura como es un triangulo pues 3
+    // // --> triangle_color => Color que va a tener el triangulo
+    public function dibujar($image,$verticeA,$verticeB,$verticeC, $color){
+        $puntos_triangulo = [
+            $verticeA->getX(), $verticeA->getY(),  // Vértice A
+            $verticeB->getX(), $verticeB->getY(),  // Vértice B
+            $verticeC->getX(), $verticeC->getY()   // Vértice C
+        ];
+        return imagefilledpolygon($image, $puntos_triangulo, 3, $color); // Color rojo
+    }
 }
