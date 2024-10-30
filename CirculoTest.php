@@ -12,10 +12,11 @@ function assertEquals($expected, $actual, $testName) {
     }
 }
 
-// Pruebas unitarias simples para la clase Circulo
+// Pruebas unitarias simples para la clase cuadrado
 
-// Test 1: Prueba el cálculo del área de un círculo
-$cuadrado = new Cuadrado("Círculo de prueba", 5);
+// Test 1: Prueba el cálculo del área de un cuadrado
+$lado = 5;
+$cuadrado = new Cuadrado("Cuadrado de prueba", $lado);
 $expectedArea = $lado * $lado;
 $actualArea = $cuadrado->area();
 assertEquals($expectedArea, $actualArea, "Prueba del cálculo del área");
