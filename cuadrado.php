@@ -3,7 +3,6 @@ include_once 'FiguraGeometrica.php'
 
 
 class Cuadrado extends FiguraGeometrica(){
-
     private float $lado;
     private Punto $esquina;
 
